@@ -1,0 +1,49 @@
+name: marcos_camacho_s_application1
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  provider: ^6.0.5
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  intl: ^0.18.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Roboto Serif
+      fonts: 
+        - asset: assets/fonts/RobotoSerifNormalRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RobotoSerifRegular.ttf
+          weight: 400
+    - family: Rochester
+      fonts: 
+        - asset: assets/fonts/RochesterRegular.ttf
+          weight: 400
+    - family: Schoolbell
+      fonts: 
+        - asset: assets/fonts/SchoolbellRegular.ttf
+          weight: 400
+    - family: DM Sans
+      fonts: 
+        - asset: assets/fonts/DMSansBold.ttf
+          weight: 700
+        - asset: assets/fonts/DMSansRegular.ttf
+          weight: 400
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoRomanBold.ttf
+          weight: 700
